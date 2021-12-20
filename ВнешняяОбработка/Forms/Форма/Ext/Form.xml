@@ -8,6 +8,11 @@
 			<CommandName>Form.Command.НажмиМиня</CommandName>
 			<ExtendedTooltip name="НажмиМиняРасширеннаяПодсказка" id="2"/>
 		</Button>
+		<InputField name="Реквизит2" id="3">
+			<DataPath>Реквизит2</DataPath>
+			<ContextMenu name="Реквизит2КонтекстноеМеню" id="4"/>
+			<ExtendedTooltip name="Реквизит2РасширеннаяПодсказка" id="5"/>
+		</InputField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -15,6 +20,21 @@
 				<v8:Type>cfg:ExternalDataProcessorObject.ВнешняяОбработка</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="Реквизит2" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Реквизит2</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
 		</Attribute>
 	</Attributes>
 	<Commands>
